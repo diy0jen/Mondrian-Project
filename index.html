@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+
+    .container {
+      height: 748px;
+      width: 748px;
+      display: grid;
+      grid-template-rows: 414px 130px 157px 20px;
+      grid-template-columns: 320px 198px 153px 50px;
+      gap: 9px;
+      background-color: #000 ;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .red  {
+      background-color: #E72F24 ;
+      
+    }
+
+    .white {
+      background-color: #F0F1EC;
+    }
+
+    .blue {
+      background-color: #004592 ;
+      border-bottom: 10px solid #000;
+       
+
+    }
+
+    .yellow {
+      background-color: #F9D01E ;
+    }
+    
+    .black {
+      background-color: #232629 ;
+    }
+
+    .bigwhite {
+      grid-column-start: 2;
+      grid-column-end: -1;
+    }
+
+    .leftwhite {
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+
+    .rightwhite {
+      grid-column-start: 2;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 4;
+    }
+
+    .yellow {
+      grid-column-start: 2;
+      
+    }
+
+    .whitetheleast {
+      grid-column-start: 1;
+      
+    }
+
+    .lastwhite {
+      grid-row-start: 3;
+      grid-row-end: 5;
+    }
+    
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+
+    <div class="container">
+      
+      <div class="red"></div>
+      <div class="white bigwhite"></div>
+      <div class="white leftwhite"></div>
+      <div class="white rightwhite"></div>
+      <div class="blue"></div>
+      <div class="white whitetheleast"></div>
+      <div class="yellow"></div>
+      <div class="black"></div>
+      <div class="white lastwhite"></div>
+  
+    </div>
+  </div>
+</body>
+
+</html>
